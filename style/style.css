@@ -1,0 +1,101 @@
+* {
+  cursor: url('/cursor/cross_cursor.cur'), auto;
+}
+
+body {
+  background: radial-gradient(circle,
+  #19a337,
+  #337a2c,
+  #4b7248,
+  #4b8270
+  );
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  background: radial-gradient(circle, 
+  #fbe7a1,
+  #f1cc8f,
+  #d9b380,
+  #c89f73,
+  #b38b67
+  );
+  border: 3px #c0c0c0 double;
+  border-radius: 20px;
+  width: 500px;
+  height: 560px;
+  margin: 10px;
+  aspect-ratio: 16/9;
+  filter: drop-shadow(5px 5px 20px #000000);
+}
+
+.image-teresa {
+  width: 155px;
+  position: absolute;
+  top: 2%;
+  right: 65%;
+  filter: drop-shadow(8px 8px 10px #232b2b);
+  opacity: 0.7;
+}
+
+.bow-teresa {
+  width: 540px;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  filter: drop-shadow(8px 8px 10px #232b2b);
+  opacity: 0.7;
+}
+
+.image-teresa:hover,
+.bow-teresa:hover {
+  transition: 2s linear;
+  opacity: 1;
+}
+
+.text-card-uno,
+.text-card-due {
+  color: #d6d6d6;
+  padding: 0 20px 0 0;
+}
+
+.text-card-uno,
+.text-card-due {
+  color:#414141;
+}
+
+.text-card-uno {
+  text-align: right;
+}
+
+.text-card-due {
+  padding-left: 20px;
+}
+
+.text-card-uno > h1,
+.text-card-uno > h3,
+.text-card-uno > p > b,
+.text-card-due > p > b,
+.text-card-due > p > b {
+  filter: drop-shadow(1px 1px 5px #232b2b);
+  opacity: 0.8;
+}
+
+.text-card-uno > h1:hover,
+.text-card-uno > h3:hover,
+.text-card-uno > p > b:hover,
+.text-card-due > p > b:hover,
+.text-card-due > p > b:hover {
+  opacity: 1;
+}
+
+.text-card-uno > p > em:hover,
+.text-card-due > p > em:hover {
+  filter: drop-shadow(5px 5px 5px #232b2b);
+}
