@@ -78,24 +78,23 @@ body {
   padding-left: 20px;
 }
 
-.text-card-uno > h1,
-.text-card-uno > h3,
-.text-card-uno > p > b,
-.text-card-due > p > b,
-.text-card-due > p > b {
+
+h1,
+h3,
+.one,
+.two,
+.three,
+.four {
   filter: drop-shadow(1px 1px 5px #232b2b);
   opacity: 0.8;
 }
 
-.text-card-uno > h1:hover,
-.text-card-uno > h3:hover,
-.text-card-uno > p > b:hover,
-.text-card-due > p > b:hover,
-.text-card-due > p > b:hover {
+h1:hover,
+h3:hover,
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover {
   opacity: 1;
-}
-
-.text-card-uno > p > em:hover,
-.text-card-due > p > em:hover {
   filter: drop-shadow(5px 5px 5px #232b2b);
 }
