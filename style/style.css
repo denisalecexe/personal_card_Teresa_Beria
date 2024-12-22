@@ -58,9 +58,9 @@ body {
 }
 
 .bow-teresa {
-  width: 540px;
   position: absolute;
-  top: 40%;
+  width: 540px;
+  top: 45%;
   left: 25%;
   filter: drop-shadow(8px 8px 10px #232b2b);
   opacity: 0.7;
@@ -75,7 +75,7 @@ body {
 .text-card-uno,
 .text-card-due {
   color: #d6d6d6;
-  padding: 0 20px 0 0;
+  padding: 10px 20px;
 }
 
 .text-card-uno,
@@ -84,11 +84,13 @@ body {
 }
 
 .text-card-uno {
-  text-align: right;
+  transform: translate(42%, 0);
+  width: 400px;
 }
 
 .text-card-due {
-  padding-left: 20px;
+  padding: 0 20px 0 15px;
+  width: 200px;
 }
 
 
