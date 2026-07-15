@@ -14,8 +14,3 @@ Ho deciso di mantenere questo progetto intatto nel mio portfolio, senza modifica
 ## Tecnologie Utilizzate
 * HTML5 (Struttura della card e dei contenuti)
 * CSS3 (Layout, gestione dei colori e posizionamento)
-
----
-
-## Licenza
-Questo progetto è rilasciato sotto licenza MIT.
